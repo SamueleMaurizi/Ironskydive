@@ -1,0 +1,264 @@
+/* General */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Roboto;
+	font-size: 10px;
+	font-weight: 300;
+	line-height: 3.5em;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 75px 0;
+}
+
+.dark-background {
+	color: white;
+	background-color: rgb(25, 33, 41);
+}
+
+.col {
+	float: left;
+}
+
+.col-2 {
+	width: 40%;
+}
+
+.col-3 {
+	width: 30%;
+}
+
+.col-middle {
+	margin: 0 5%;
+}
+
+.clearfix {
+	clear: both;
+}
+/* End General*/
+
+/* Text */
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: "Roboto Condensed";
+}
+
+h1 {
+	font-size: 9em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 5em;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 4em;
+}
+
+h3 {
+	font-size: 4.2em;
+	text-align: center;
+}
+
+h4 {
+	font-size: 1.5em;
+	letter-spacing: 0.4px;
+	margin-bottom: 15px;
+}
+
+h5 {
+	font-size: 1.2em;
+}
+/* End Text*/
+
+/* Nav bar */
+.nav-bar {
+	background-color: rgb(25, 33, 41);
+	padding: 14px 0;
+	height: 40px;
+}
+
+.nav-bar-item a {
+	color: white;
+	font-size: 2em;
+	text-decoration: none;
+}
+
+.nav-bar-ul {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.nav-bar-li li{
+	float: left;
+	list-style-type: none;
+	text-align: center;
+	width: 33%;
+}
+
+/* Header */
+.header {
+	position: relative;
+	height: 650px;
+	background-image: url("https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg");
+	background-position: 0, 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 50px;
+}
+
+.text-h2 {
+	color: white;
+	text-shadow: #020819 8px -20px 9px;
+}
+
+.quote {
+	position: absolute;
+	left: 7%;
+	bottom: 15vh;
+	font-size: 2.5em;
+}
+/* End Header*/
+
+/* Section 1 */
+.link-btn {
+	display: block;
+	margin: 40px auto 0 auto;
+	padding: 14px 20px;
+	border: 2px solid rgb(0, 0, 0, .2);
+	color: white;
+	font-family: "Roboto Condensed";
+	font-size: 2em;
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 5.5px;
+	background-color: rgb(67, 163, 230);
+}
+
+.text {
+	font-size: 2em;
+	font-weight: 100;
+	text-align: center;
+	margin: 20px 0;
+}
+
+/* Section 2 */
+.service-box {
+	font-size: 1.7em;
+	text-align: center;
+	border: 2px solid #eee;
+	border-radius: 20px;
+	box-sizing: border-box;
+	box-shadow: 2px 2px 10px 0 #eee;
+	margin: 50px 5% 0 5%;
+	padding: 20px;
+	width: 40%;
+}
+
+.service-box img {
+	width: 125px;
+}
+
+/* Section 3 */
+#team .section-text {
+	font-size: 1.9em;
+	text-align: center;
+	width: 60%;
+	margin: 10px auto;
+}
+
+#team .member-name {
+	display: block;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+#team hr {
+	margin: 20px auto 30px auto;
+	width: 40%;
+}
+
+/* Section 4 */
+.schedule-table {
+	margin: 0 auto 40px auto;
+	border-collapse: collapse;
+	
+}
+
+.schedule-table td, th {
+	border-bottom: 1px solid black;
+	padding: 5px 10px;
+	text-align: center;
+}
+
+.slot-form-container {
+	width: 40%;
+	margin: 18px auto 0 auto;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	line-height: 15px;
+}
+
+input,
+select {
+	height: 20px;
+	width: 100%;
+	padding: 3px;
+	outline: none;
+}
+
+.btn-reserve {
+	margin-top: 15px;
+	padding: 9px;
+	color: black;
+	background-color: white;
+	border: 1px solid black;
+}
+
+/* Footer */
+.footer {
+	font-size: 1.9em;
+	text-align: center;
+	margin-bottom: 25px;
+	padding: 0 100px;
+}
+
+.address {
+	font-size: 0.8em;
+	font-style: normal;
+	margin-bottom: 30px;
+}
+
+.footer a {
+	color: rgb(67, 163, 230);
+	text-decoration: none;
+	
+}
+
+.media-link {
+	list-style-type: none;
+}
+
+.map-frame {
+	height: 375px;
+	float: right;
+	width: 60%;
+}
