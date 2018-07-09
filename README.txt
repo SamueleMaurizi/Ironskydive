@@ -1,2 +1,2 @@
-Exercise Ironskydive
+Exercise: Ironskydive
 HTML & CSS
